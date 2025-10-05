@@ -6,7 +6,7 @@ This is my personal coding space where I practise writing python functions  just
 
 ## **Table of Contents**
 1. [INTRODUCTIN](#python-functions-playground)
-2. [NUMBER_TO_WORDS](#num_to_words)
+2. [NUMBER_TO_WORDS](#1-num_to_words)
 ---
 
 ## 🧩 What You’ll Find Here
@@ -47,7 +47,7 @@ git clone https://github.com/Femiolajide/python-functions-playground.git
 - Possibly turn this into a small python package in the future.
 
 
-## **num_to_words()**
+## **1. num_to_words()**
 
 **Description:**
 
