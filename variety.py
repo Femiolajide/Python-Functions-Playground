@@ -19,6 +19,8 @@ def num_to_words(a:int) -> str:
     
     """
     def one_octillion(a):
+        if a < 1 or not isinstance(a,(int)):
+            raise ValueError (f"{a} is not allowed")
         def one_septillion(a):
             def one_sextillion(a):
                 def one_quintillion(a):        
