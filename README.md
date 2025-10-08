@@ -64,7 +64,7 @@ git clone https://github.com/Femiolajide/python-functions-playground.git
 
 
 **Source Code:**  
-Click [here](variety.py#L1-L300) to view the sourse code
+Click [here](variety.py#L1-L302) to view the sourse code
 
 **View Notebook Demo:**  
 
