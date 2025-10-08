@@ -19,7 +19,7 @@ def num_to_words(a:int) -> str:
     
     """
     def one_octillion(a):
-        if a < 1 or not isinstance(a,(int)):
+        if a < 1:
             raise ValueError (f"{a} is not allowed")
         def one_septillion(a):
             def one_sextillion(a):
@@ -282,6 +282,8 @@ def num_to_words(a:int) -> str:
 
     # 1 - 999,999,999,999,999,999,999,999,999,999,999 FUNCTION STARTS HERE
     # formating the digits with comma seperator
+    if not isinstance(a,(int)):
+        raise ValueError (f"{a} is not allowed")
     d = f"{a:,}"
     # condition for octillion
     if d.count(",") == 10:

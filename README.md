@@ -63,3 +63,15 @@ git clone https://github.com/Femiolajide/python-functions-playground.git
 - Easy to extend for even larger scales in the future.
 
 
+**Source Code:**  
+Click [here](variety.py#L1-L300) to view the sourse code
+
+**View Notebook Demo:**  
+
+Click [here](https://github.com/Femiolajide/Python-Functions-Playground/blob/main/demo_notebook.ipynb) to view the notebook demo
+
+
+
+**Run Notebook Demo:**  
+Click [here](https://mybinder.org/v2/gh/Femiolajide/Python-Functions-Playground/HEAD?filepath=demo_notebook.ipynb
+) to **run** the usage example in the demo notebook
