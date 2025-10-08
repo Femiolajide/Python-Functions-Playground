@@ -59,7 +59,7 @@ git clone https://github.com/Femiolajide/python-functions-playground.git
 - Accepts one positional argument, an integer between `1` and `999,999,999,999,999,999,999,999,999,999,999 `.
 - Converts numbers to proper English text
 - Supports large numbers up to `nonillion`.
-- Raises `TypeError` when a non-integer is passed in.
+- Raises `TypeError` when a non-integer is passed in .
 - Easy to extend for even larger scales in the future.
 
 
