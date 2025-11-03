@@ -123,7 +123,7 @@ Click [here](variety.py#L306-L392) to view the sourse code
 
 **View Notebook Demo:**  
 
-Click [here](https://github.com/Femiolajide/Python-Functions-Playground/blob/main/demo_notebook.ipynb#usage-of-derive-words-funtion) to view the notebook demo
+Click [here](https://github.com/Femiolajide/Python-Functions-Playground/blob/main/demo_notebook.ipynb#usage-of-derive_words-funtion) to view the notebook demo
 
 
 
