@@ -331,9 +331,6 @@ def derive_words(letters:str,min_letters:int,
 
         Returns the list of words derived in ascending order
         or empty list if no match
-
-
-    
         
     Raises
     ----------
