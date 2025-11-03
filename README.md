@@ -115,7 +115,7 @@ For example, entering `meat` can generate words such as **team**, **meat**, **ma
 ---
 > [!NOTE]
 > The function’s output depends on the **dictionary dataset**[^1] used for validation, so some rare or slang words may be excluded.
-[^1]: http://www.gwicks.net/dictionaries.htm
+[^1]: http://www.gwicks.net/dictionaries.htmL
 
 
 ---
