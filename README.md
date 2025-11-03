@@ -72,12 +72,12 @@ Click [here](variety.py#L1-L302) to view the sourse code
 
 **View Notebook Demo:**  
 
-Click [here](https://github.com/Femiolajide/Python-Functions-Playground/blob/main/demo_notebook.ipynb) to view the notebook demo
+Click [here](https://github.com/Femiolajide/Python-Functions-Playground/blob/main/num_to_words.ipynb) to view the notebook demo
 
 
 
 **Run Notebook Demo:**  
-Click [here](https://mybinder.org/v2/gh/Femiolajide/Python-Functions-Playground/HEAD?filepath=demo_notebook.ipynb
+Click [here](https://mybinder.org/v2/gh/Femiolajide/Python-Functions-Playground/HEAD?filepath=num_to_words.ipynb
 ) to **run** the usage example in the demo notebook
 
 ---
@@ -123,12 +123,11 @@ Click [here](variety.py#L306-L392) to view the sourse code
 
 **View Notebook Demo:**  
 
-Click [here](https://github.com/Femiolajide/Python-Functions-Playground/blob/main/demo_notebook.ipynb#usage-of-derive_words-funtion) to view the notebook demo
+Click [here](https://github.com/Femiolajide/Python-Functions-Playground/blob/main/derive_words.ipynb) to view the notebook demo
 
 
 
 **Run Notebook Demo:**  
-Click [here](https://mybinder.org/v2/gh/Femiolajide/Python-Functions-Playground/HEAD?filepath=demo_notebook.ipynb
-) to **run** the usage example in the demo notebook. Go to **Usage of derive_words() funtion** section within the notebook
+Click [here](https://mybinder.org/v2/gh/Femiolajide/Python-Functions-Playground/HEAD?filepath=derive_words.ipynb
+) to **run** the usage example in the demo notebook.
 
----
