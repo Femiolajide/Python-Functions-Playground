@@ -44,6 +44,7 @@ git clone https://github.com/Femiolajide/python-functions-playground.git
 - Write unit tests to ensure accuracy and reliability.
 - Possibly turn this into a small python package in the future.
 
+---
 
 ### **1. num_to_words()**
 
@@ -51,6 +52,7 @@ git clone https://github.com/Femiolajide/python-functions-playground.git
 
 `num_to_words(a)` converts an integer into its full English word  from 1 up to 999,999,999,999,999,999,999,999,999,999,999 (nonillion). This function was built purely with python’s basic features (no external libraries), using string manipulation, nested functions, and conditional logic. The logic works by splitting the number into groups of three digits (hundreds, thousands, millions, etc.), then converting each group recursively and combining them with the correct scale names.
 
+---
 
 **Features:**
 
@@ -58,10 +60,13 @@ git clone https://github.com/Femiolajide/python-functions-playground.git
 - Converts numbers to proper English text
 - Supports large numbers up to `nonillion`.
 - Raises `TypeError` when a non-integer is passed in or zero or negative number.
+
+---
+
 > [!NOTE]
 > Easy to extend for even larger scales in the future.
 
-
+---
 **Source Code:**  
 Click [here](variety.py#L1-L302) to view the sourse code
 
@@ -75,16 +80,16 @@ Click [here](https://github.com/Femiolajide/Python-Functions-Playground/blob/mai
 Click [here](https://mybinder.org/v2/gh/Femiolajide/Python-Functions-Playground/HEAD?filepath=demo_notebook.ipynb
 ) to **run** the usage example in the demo notebook
 
-
+---
 
 ### **2. derive_words()**
-
+---
 **Description:**
 
 The `derive_woed()` function programaticaly derives valid English words from a given group of letters.\
 For example, entering `meat` can generate words such as **team**, **meat**, **mate**, and **tame**.
 
-
+---
 **Features**
 
 * **Arguments**
@@ -106,6 +111,7 @@ For example, entering `meat` can generate words such as **team**, **meat**, **ma
     * Any character in `letters` is not an alphabet (A–Z or a–z).
     * Either `min_letters` or `max_letters` is not an integer.
     * `min_letters` is greater than `max_letters`.
+---
 > [!NOTE]
 > The function’s output depends on the **dictionary dataset** used for validation, so some rare or slang words may be excluded.
 
