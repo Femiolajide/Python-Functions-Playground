@@ -300,3 +300,93 @@ def num_to_words(a:int) -> str:
             return f"{one_octillion(b)} nonillion"
     else:
         return one_octillion(a)
+    
+    
+
+# DERIVING ENGLISH WORDS FROM COMBINATION OF LETTERS
+
+def derive_words(letters:str,min_letters:int,
+                 max_letters=None) -> list:
+    """Form a number of English words from group of letters
+    
+    Parameters
+    -------------
+    letters: str
+
+        letters must be a string with only aphabeth from a to z
+    
+    min_letters: int
+
+        Number of minimum letters to make up the derived 
+        words from the letter provided
+
+    max_letters: int (optional)
+
+        Number of maximum letters to make up the derived 
+        words from the letter provided   
+
+    Returns
+    -------------
+        list
+
+        Returns the list of words derived in ascending order
+        or empty list if no match
+
+
+    
+        
+    Raises
+    ----------
+        Raises ValueError if letters is not a string
+        or if min_letters or max_letters is not an integer
+        or if string has a character that is not with a to z
+        or if min_letters is greater max_letters
+
+    """
+    if not isinstance(letters,str):
+        raise ValueError("Only string datatype is allowed")
+    # update letters to its lower case version 
+    letters = letters.lower()
+    # importing regular expression module
+    import re
+    # validating characters that made up letters 
+    # raise error if there is anything that is not 
+    # within a to z in letters
+    if re.search(r'[^aA-zZ]',letters):
+        raise ValueError("Letters must be within a to z")
+    # checking if min_letters is an integer
+    if not isinstance(min_letters,int):
+        raise ValueError("Only integer datatype is allowed")
+    # checking if max_letters is an integer
+    if not isinstance(max_letters,(int,type(None))):
+        raise ValueError("Only integer datatype is allowed")
+    if max_letters != None:
+        if not (min_letters < max_letters):
+            raise ValueError("min_letters > max_letters")
+    # Importing permutation and combination tools 
+    from itertools import permutations as pm, combinations as cb 
+    # Accessing English dictionary words text files 
+    with open(r"data\engmix.txt") as file:
+        content = file.readlines()
+    # removing the newlines ending each words 
+    dict_words = [x.strip() for x in content]
+    # creating a list to store the English words found in the file 
+    combination_list = []
+    # getting the possible combination of all the letters
+    if max_letters != None:
+        for x in range(min_letters,max_letters + 1):
+            combination_list.extend(list(cb(letters,x)))
+    else:
+        combination_list.extend(list(cb(letters,min_letters)))
+    # getting permutaion of all the letters combined
+    permutation_list = []
+    for x in combination_list:
+        permutation_list.extend(list(pm(x)))
+    permutation_list
+    # turning the letters in tuple to word 
+    word_list = ["".join(x) for x in permutation_list]
+    word_list
+    # deriving the dictionary words using set intersection
+    eng_words = list(set(word_list) & set(dict_words))
+    # return the matched words in ascending order 
+    return list(sorted(eng_words))
