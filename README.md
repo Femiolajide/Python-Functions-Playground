@@ -1,8 +1,6 @@
 # **Python Functions Playground**
 
-Welcome! 👋  
-
-This is my personal coding space where I practise writing python functions  just for fun, learning, and skill-building.  Each function here represents a small problem I decided to solve or an idea I wanted to try out from scratch.  
+This is my personal coding space where I write miscellaneous python functions  just for fun. Each function here is a small problem I decided to solve or an idea I have always wanted to try out from scratch.  
 
 ## **Table of Contents**
 1. [INTRODUCTIN](#python-functions-playground)
@@ -11,15 +9,15 @@ This is my personal coding space where I practise writing python functions  just
 
 ## 🧩 What You’ll Find Here
 
-- Simple, well-documented python functions that perform useful or interesting tasks.  
-- A growing collection of code snippets that reflect how I think through problems.  
-- Example usages to make it easy for anyone to understand and try them out.  
+- Simple and well-documented python functions that perform useful and interesting tasks.  
+- Collection of code snippets that show how I think through problems.  
+- Usage example of the functions to make it easy for anyone to understand and try them out.  
 
 ---
 
 ## 💡 Why This Project?
 
-I created this project to keep sharpening my problem-solving skills in python and hopefully inspires others to do the same. I believe that the best way to learn is by creating something, even if it's just small random ideas. 
+I created this repo to keep sharpening my problem-solving skills in python and hopefully inspires others to do the same. I believe that the best way to learn is by creating something, even if it's just small random ideas. 
 
 ---
 
@@ -47,7 +45,7 @@ git clone https://github.com/Femiolajide/python-functions-playground.git
 - Possibly turn this into a small python package in the future.
 
 
-## **1. num_to_words()**
+### **1. num_to_words()**
 
 **Description:**
 
@@ -60,7 +58,8 @@ git clone https://github.com/Femiolajide/python-functions-playground.git
 - Converts numbers to proper English text
 - Supports large numbers up to `nonillion`.
 - Raises `TypeError` when a non-integer is passed in or zero or negative number.
-- Easy to extend for even larger scales in the future.
+> [!NOTE]
+> Easy to extend for even larger scales in the future.
 
 
 **Source Code:**  
@@ -75,3 +74,38 @@ Click [here](https://github.com/Femiolajide/Python-Functions-Playground/blob/mai
 **Run Notebook Demo:**  
 Click [here](https://mybinder.org/v2/gh/Femiolajide/Python-Functions-Playground/HEAD?filepath=demo_notebook.ipynb
 ) to **run** the usage example in the demo notebook
+
+
+
+### **2. derive_words()**
+
+**Description:**
+
+The `derive_woed()` function programaticaly derives valid English words from a given group of letters.\
+For example, entering `meat` can generate words such as **team**, **meat**, **mate**, and **tame**.
+
+
+**Features**
+
+* **Arguments**
+
+  * `letters` *(str)*: The set of letters to build words from.
+  * `min_letters` *(int)*: The smallest number of letters each derived word should contain.
+  * `max_letters` *(int, optional)*: The largest number of letters each derived word can contain.
+    If not provided, the function automatically uses `min_letters` as the upper limit.
+
+* **Functionality**
+
+  * Builds all possible word combinations using permutation and combination logic.
+  * Filters out non-dictionary entries, returning only real English words.
+  * It's good for **anagram solvers** or  **word puzzle games hacking**
+
+* **Validation and Error Handling**
+
+  * Raises a `ValueError` if:
+    * Any character in `letters` is not an alphabet (A–Z or a–z).
+    * Either `min_letters` or `max_letters` is not an integer.
+    * `min_letters` is greater than `max_letters`.
+> [!NOTE]
+> The function’s output depends on the **dictionary dataset** used for validation, so some rare or slang words may be excluded.
+
