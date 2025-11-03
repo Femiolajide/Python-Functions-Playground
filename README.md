@@ -115,3 +115,20 @@ For example, entering `meat` can generate words such as **team**, **meat**, **ma
 > [!NOTE]
 > The function’s output depends on the **dictionary dataset** used for validation, so some rare or slang words may be excluded.
 
+
+
+---
+**Source Code:**  
+Click [here](variety.py#L306-L392) to view the sourse code
+
+**View Notebook Demo:**  
+
+Click [here](https://github.com/Femiolajide/Python-Functions-Playground/blob/main/demo_notebook.ipynb#usage-of-derive-words-funtion) to view the notebook demo
+
+
+
+**Run Notebook Demo:**  
+Click [here](https://mybinder.org/v2/gh/Femiolajide/Python-Functions-Playground/HEAD?filepath=demo_notebook.ipynb
+) to **run** the usage example in the demo notebook. Go to **Usage of derive_words() funtion** section within the notebook
+
+---
