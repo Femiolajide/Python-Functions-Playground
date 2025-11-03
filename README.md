@@ -4,7 +4,8 @@ This is my personal coding space where I write miscellaneous python functions  j
 
 ## **Table of Contents**
 1. [INTRODUCTIN](#python-functions-playground)
-2. [NUMBER_TO_WORDS](#1-num_to_words)
+2. [NUMBER TO WORDS](#1-num_to_words)
+3. [DERIVE WORDS](#2-derive_words)
 ---
 
 ## 🧩 What You’ll Find Here
