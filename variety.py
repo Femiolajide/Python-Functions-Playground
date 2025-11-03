@@ -366,7 +366,7 @@ def derive_words(letters:str,min_letters:int,
     # Importing permutation and combination tools 
     from itertools import permutations as pm, combinations as cb 
     # Accessing English dictionary words text files 
-    with open(r"data\engmix.txt") as file:
+    with open(r"engmix.txt") as file:
         content = file.readlines()
     # removing the newlines ending each words 
     dict_words = [x.strip() for x in content]
