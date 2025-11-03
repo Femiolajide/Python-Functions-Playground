@@ -301,10 +301,9 @@ def num_to_words(a:int) -> str:
     else:
         return one_octillion(a)
     
-    
+
 
 # DERIVING ENGLISH WORDS FROM COMBINATION OF LETTERS
-
 def derive_words(letters:str,min_letters:int,
                  max_letters=None) -> list:
     """Form a number of English words from group of letters
@@ -340,6 +339,7 @@ def derive_words(letters:str,min_letters:int,
         or if min_letters is greater max_letters
 
     """
+    # check if letters is a string 
     if not isinstance(letters,str):
         raise ValueError("Only string datatype is allowed")
     # update letters to its lower case version 
