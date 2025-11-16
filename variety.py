@@ -303,7 +303,7 @@ def num_to_words(a:int) -> str:
     
 
 
-# DERIVING ENGLISH WORDS FROM COMBINATION OF LETTERS
+# DERIVING ENGLISH WORDS FROM COMBINATION OF LETTERS.md
 def derive_words(letters:str,min_letters:int,
                  max_letters=None) -> list:
     """Form a number of English words from group of letters
