@@ -132,3 +132,9 @@ Click [here](https://github.com/Femiolajide/Python-Functions-Playground/blob/mai
 Click [here](https://mybinder.org/v2/gh/Femiolajide/Python-Functions-Playground/HEAD?filepath=derive_words.ipynb
 ) to **run** the usage example in the demo notebook.
 
+
+
+**Try it out on web app:**  
+Click [here](https://python-functions-playground-fpxzuh9fzdwer3m39ths9d.streamlit.app) to try it out in a more user-friendly interface.
+
+
