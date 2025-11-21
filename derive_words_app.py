@@ -29,7 +29,7 @@ if txt_entered:
         st.error(entry_err)
     else:
         min_l = st.number_input(
-            label="*How many letters do you want in your new word?**",
+            label="**How many letters do you want in your new word?**",
         min_value=0,
         placeholder="Type an integer ONLY!",
         max_value=len(txt_entered),
