@@ -12,7 +12,7 @@ Hi, I have packaged the :orange[derive_words] function in a more user-friendly i
 
 ---
          
-You can even solve this word puzzle with it 
+
 
          
          """)
