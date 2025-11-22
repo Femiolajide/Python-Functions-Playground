@@ -81,6 +81,10 @@ Click [here](https://github.com/Femiolajide/Python-Functions-Playground/blob/mai
 Click [here](https://mybinder.org/v2/gh/Femiolajide/Python-Functions-Playground/HEAD?filepath=num_to_words.ipynb
 ) to **run** the usage example in the demo notebook
 
+**Try it out on web app:**  
+Click [here](https://python-functions-playground-na5wmqfsu7tvhks97gk9ry.streamlit.app) to try it out on a more user-friendly interface.
+
+
 ---
 
 ### **2. derive_words()**
@@ -135,6 +139,6 @@ Click [here](https://mybinder.org/v2/gh/Femiolajide/Python-Functions-Playground/
 
 
 **Try it out on web app:**  
-Click [here](https://python-functions-playground-fpxzuh9fzdwer3m39ths9d.streamlit.app) to try it out in a more user-friendly interface.
+Click [here](https://python-functions-playground-fpxzuh9fzdwer3m39ths9d.streamlit.app) to try it out on a more user-friendly interface.
 
 
