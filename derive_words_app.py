@@ -8,7 +8,8 @@ import re
 st.write("""### **derive_words**
 
 
-Hi, I have packaged the :orange[derive_words] function in a more user-friendly interface for you to try out.
+Hi, I have packaged the :orange[derive_words] function in a more user-friendly interface for you to try out.  
+Read more about it [here](https://github.com/Femiolajide/Python-Functions-Playground#2-derive_words)
 
 ---
          
